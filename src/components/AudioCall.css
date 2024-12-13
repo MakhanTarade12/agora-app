@@ -1,0 +1,81 @@
+/* Audio Call Container */
+.audio-call-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .audio-call-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .audio-call-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .audio-call-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .audio-call-container input,
+  .audio-call-container select {
+    padding: 10px;
+    width: 200px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .audio-call-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .audio-call-container button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .audio-call-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .audio-call-container .remote-audio {
+    margin: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .audio-call-container .disconnect-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .audio-call-container .disconnect-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .audio-call-container p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  

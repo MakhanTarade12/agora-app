@@ -1,0 +1,87 @@
+/* Video Call Container */
+.video-call-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.video-call-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.video-call-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.video-call-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.video-call-container input,
+.video-call-container select {
+  padding: 10px;
+  width: 200px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.video-call-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-call-container button:disabled {
+  background-color: #cccccc;
+}
+
+.video-call-container .local-video-container {
+  margin-top: 30px;
+}
+
+.local-video-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.video-call-container .local-video,
+.video-call-container .remote-video {
+  width: 320px;
+  height: 240px;
+  border: 2px solid #ccc;
+  margin: 10px;
+  background-color: #000;
+}
+
+.video-call-container .disconnect-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-call-container .disconnect-button:hover {
+  background-color: #d32f2f;
+}
+
+.video-call-container p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
