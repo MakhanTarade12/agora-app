@@ -25,7 +25,7 @@ const AudioCall = () => {
   const fetchToken = async () => {
     try {
       setLoading(true);
-      const response = await axios.post(`http://localhost:3005/api/partner/agora_token`, {
+      const response = await axios.post(`https://api-serviceprovider.techfluxsolutions.com/api/partner/agora_token`, {
         channel_name: channelName,
         uid: parseInt(uid),
         role,
